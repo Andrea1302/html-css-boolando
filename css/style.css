@@ -18,7 +18,7 @@
 
 /* Regole generali oggetti ( main ) */
 .object{
-width: calc(100% / 3 - 10px);
+width: calc(100% / 3 - 4px);
 margin-bottom: 20px;
 float: left;
 position: relative;
@@ -28,7 +28,7 @@ img {
     object-fit: cover;
 }
 .object#central{
-   margin:  0 5px;
+   margin:  0 6px;
 }
 
 /* cuoricino in alto a dx */
