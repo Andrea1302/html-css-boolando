@@ -28,7 +28,7 @@ img {
     object-fit: cover;
 }
 .object#central{
-    margin: 0 5px;
+   margin:  0 5px;
 }
 
 /* cuoricino in alto a dx */
@@ -82,4 +82,9 @@ img {
 }
 .object:hover .hover{
     display: inline-block;
+}
+.sostenibilita#nodiscount{
+    position: absolute;
+    left: 0;
+    bottom: 80px;
 }
