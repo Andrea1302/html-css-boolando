@@ -38,6 +38,7 @@ img {
     top: 10px;
     right: 0;
     background-color: white;
+    z-index: 20;
 }
 
 /* indice sconto e sostenibilita  */
@@ -70,4 +71,15 @@ img {
 .quanto_era{
     text-decoration: line-through;
     color:black;
+}
+
+/* hover object*/
+.hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.object:hover .hover{
+    display: inline-block;
 }
