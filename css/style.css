@@ -42,22 +42,24 @@ img {
 }
 
 /* indice sconto e sostenibilita  */
+.discount_sostenibilita{
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+    margin-top: 2px;
+
+}
+
 .discount{
     color: white;
     background-color: red;
     padding: 1px;
-    position: absolute;
-    left: 0;
-    bottom: 80px;
-    margin-right: 5px;
+    margin-right: 3px;
 }
 .sostenibilita{
     color: white;
     padding: 1px;
     background-color: green;
-    position: absolute;
-    bottom: 80px;
-    left: 40px;
 }
 
 /* descrizione prodotto */
@@ -82,9 +84,4 @@ img {
 }
 .object:hover .hover{
     display: inline-block;
-}
-.sostenibilita#nodiscount{
-    position: absolute;
-    left: 0;
-    bottom: 80px;
 }
