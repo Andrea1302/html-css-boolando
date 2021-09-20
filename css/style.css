@@ -4,10 +4,7 @@
     margin: 0;
     padding: 0;
 }
-.container{
-    width: 80%;
-    margin: 10px auto;
-}
+
 
  .clearfix{
     content: '';
@@ -16,17 +13,25 @@
     width: 100%;
 } 
 
-/* Regole generali oggetti ( main ) */
-.object{
-width: calc(100% / 3 - 4px);
-margin-bottom: 20px;
-float: left;
-position: relative;
+/* main  */
+.container{
+    width: 80%;
+    margin: 10px auto;
 }
-img {
+
+/* Struttura prodotto  */
+.object{
+    width: calc(100% / 3 - 4px);
+    margin-bottom: 20px;
+    float: left;
+    position: relative;
+}
+.object img {
     width: 100%;
     object-fit: cover;
 }
+
+/* struttura prodotto centrale  */
 .object#central{
    margin:  0 6px;
 }
@@ -50,13 +55,13 @@ img {
 
 }
 
-.discount{
+.discount_sostenibilita .discount{
     color: white;
     background-color: red;
     padding: 1px;
     margin-right: 3px;
 }
-.sostenibilita{
+.discount_sostenibilita .sostenibilita{
     color: white;
     padding: 1px;
     background-color: green;
