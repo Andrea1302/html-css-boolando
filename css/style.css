@@ -68,14 +68,14 @@
 }
 
 /* descrizione prodotto */
-.marca{
+.object .marca{
     font-size: 12px;
 }
-.how_much{
+.object .how_much{
     color: red;
     font-size: 12px;
 }
-.quanto_era{
+.object .quanto_era{
     text-decoration: line-through;
     color:black;
 }
