@@ -6,5 +6,68 @@
 }
 .container{
     width: 80%;
-    margin: 0 auto;
+    margin: 10px auto;
+}
+
+ .clearfix{
+    content: '';
+    display: table;
+    clear: both;
+    width: 100%;
+} 
+
+/* Regole generali oggetti ( main ) */
+.object{
+width: calc(100% / 3 - 10px);
+margin-bottom: 20px;
+float: left;
+position: relative;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.object#central{
+    margin: 0 5px;
+}
+
+/* cuoricino in alto a dx */
+.cuore{
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+}
+
+/* indice sconto e sostenibilita  */
+.discount{
+    color: white;
+    background-color: red;
+    padding: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+    margin-right: 5px;
+}
+.sostenibilita{
+    color: white;
+    padding: 1px;
+    background-color: green;
+    position: absolute;
+    bottom: 80px;
+    left: 40px;
+}
+
+/* descrizione prodotto */
+.marca{
+    font-size: 12px;
+}
+.how_much{
+    color: red;
+    font-size: 12px;
+}
+.quanto_era{
+    text-decoration: line-through;
+    color:black;
 }
